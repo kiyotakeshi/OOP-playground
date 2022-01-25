@@ -1,4 +1,4 @@
-package com.kiyotakeshi.OOP;
+package com.kiyotakeshi.OOP2;
 
 /*
 ・好きなプレイヤー名を表示できるようにする
@@ -13,8 +13,8 @@ public class SimpleRockPaperScissors {
 
     public static void main(String[] args) {
         Judge judge = new Judge();
-        Player mike = new Player("mike");
-        Player popcorn = new Player("popcorn");
+        Player mike = new Mike("mike");
+        Player popcorn = new Popcorn("popcorn");
         judge.doRockPaperScissors(mike, popcorn);
     }
 }
